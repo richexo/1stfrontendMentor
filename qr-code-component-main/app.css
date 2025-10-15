@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+:root {
+  /* colours */
+  --Slate300: hsl(212, 45%, 89%);
+  --Slate500: hsl(216, 15%, 48%);
+  --Slate900: hsl(218, 44%, 22%);
+  --White: hsl(0, 0%, 100%);
+
+  /* font */
+  --fsmall: 1.1rem;
+  --fnormal: 1.5rem;
+  --Family: Outfit, sans-serif;
+  --nWeights: 400px;
+  --bweight: 700px;
+  --Qborder-radius: 5%;
+}
+body {
+  background-color: var(--Slate300);
+  font-family: var(--Family);
+  line-height: 1.5;
+}
+main {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--White);
+  border-radius: var(--Qborder-radius);
+  height: fit-content;
+  width: 23rem;
+}
+img {
+  width: 90%;
+  margin-top: 1rem;
+  border-radius: var(--Qborder-radius);
+}
+div.content {
+  text-align: center;
+  padding: 1rem;
+  margin-bottom: 2rem;
+}
+.content p {
+  padding: 1rem;
+}
+
+p {
+  font-size: var(--fnormal);
+  font-weight: bolder;
+}
+
+span {
+  color: rgb(189, 185, 185);
+  font-weight: var(--nWeights);
+}
+
+a,
+span {
+  font-size: var(--fsmall);
+}
+.attribution {
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
