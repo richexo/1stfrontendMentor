@@ -31,7 +31,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 ## My process
 
 This is my first challenge from frontend mentor
-It was fun and all but i'm still trying to figure out how to get exact size for different containers
+It was fun and all but i'm still trying to figure out how to get the sizes for different containers
+is there a sizing format to follow or something relating to that
 
 ### Built with
 
